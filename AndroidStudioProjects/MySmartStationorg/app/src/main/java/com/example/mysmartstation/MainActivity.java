@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         email = findViewById(R.id.email);
+        email.setVisibility(View.VISIBLE);
         password = findViewById(R.id.password);
         checkedStatus = findViewById(R.id.checkbox);
         login =findViewById(R.id.login);
